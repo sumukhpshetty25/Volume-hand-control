@@ -4,10 +4,6 @@ This project enables you to control your system's audio volume using just your h
 
 ---
 
-## 📽️ Demo
-
-<img src="images/demo.gif" width="500"/>
-
 > 🔊 Move your thumb and index finger closer or farther apart to control the system volume.
 
 ---
