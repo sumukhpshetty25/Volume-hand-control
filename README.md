@@ -36,3 +36,19 @@ pip install opencv-python mediapipe comtypes pycaw numpy
 ```
 ⚠️ Make sure your webcam is connected and accessible by OpenCV.
 
+🚀 How to Run
+Clone the repository:
+```bash
+git clone https://github.com/sumukhpshetty25/Volume-hand-control.git
+cd Volume-hand-control
+Run the main script
+
+✨ How It Works
+MediaPipe detects your hand and provides 21 landmark points.
+
+We track landmarks 4 (thumb tip) and 8 (index tip).
+
+The distance between them is mapped to a volume level using numpy.interp.
+
+Volume is set using pycaw (Windows only).
+
