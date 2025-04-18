@@ -23,8 +23,11 @@ This project enables you to control your system's audio volume using just your h
 ---
 
 ## 📁 Project Structure
-
-
+```bash
+ ├── HandTrackingModule.py # Hand detection and position extraction(common hand tracking module) 
+ ├── HandTrackingMin.py # Simple hand tracking (used in the project) 
+ ├── VolumehandControl.py # Main program to control volume 
+```
 ---
 
 ## 📦 Requirements
@@ -53,3 +56,7 @@ The distance between them is mapped to a volume level using numpy.interp.
 
 Volume is set using pycaw (Windows only).
 
+## 📷 Reference
+MediaPipe Hands Documentation
+
+pycaw GitHub
