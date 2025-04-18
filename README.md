@@ -36,7 +36,7 @@ git clone https://github.com/sumukhpshetty25/Volume-hand-control.git
 cd Volume-hand-control
 ```
 Run the main script
-Move your thumb and index finger closer or farther apart to control the system volume.
+- Move your thumb and index finger closer or farther apart to control the system volume.
 
 ## ✨ How It Works
 MediaPipe detects your hand and provides 21 landmark points.
