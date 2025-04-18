@@ -1,4 +1,4 @@
-# 🖐️ Volume Hand Control using OpenCV & MediaPipe
+# 🖐️ Volume Hand Control 
 
 This project enables you to control your system's audio volume using just your hand gestures, captured through a webcam! It leverages computer vision with **OpenCV**, **MediaPipe**, and **pycaw**.
 
